@@ -12,7 +12,7 @@ Se generó el objecto fruta y se van creando con new 'fruta'.
 
 - [x] Subir Mínimo Producto Viable
 - [ ] Crear una API con las frutas
-- [ ] Implementar frutas favoritas y enviar notificación cuando se temporada
+- [ ] Implementar frutas favoritas y enviar notificación cuando es temporada
 
 
 ## Contacto
