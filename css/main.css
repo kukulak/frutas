@@ -43,6 +43,20 @@ ul{
 } 
 
 
+.contenedorInfo{
+	width: 100vw;
+    height: 100vh;
+	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+	position: fixed;
+    z-index: 1000;
+	pointer-events: none;
+}
+
+
 .page-scroll a{
 	text-transform: uppercase;
 	font-family: "BenchNine", Helvetica, Arial, sans-serif;
@@ -1110,13 +1124,25 @@ margin-top: 5px;
 
 }
 
-
+.contenedorfruits{
+	width: 100vw;
+    height: 100vh;
+	display: grid;
+	align-items: center;
+    justify-items: center;
+	align-content: center;
+	justify-content: center;
+	
+}
 
 #leFruit{
+	display: grid;
+	align-items: center;
+    justify-items: center;
 	width: 100%;
 /*	height: 100%;*/
-	margin-left: 0px;
-	margin-top: -112px;
+	/* margin-left: 0px;
+	margin-top: -112px; */
 	/*background-color: orange;*/
 
     -ms-transform: scale(1, 1); /* IE 9 */
@@ -1125,6 +1151,8 @@ margin-top: 5px;
     -webkit-transform-origin: 50% 50%; /* Chrome, Safari, Opera */
     transform: scale(0.65, 0.65);
     transform-origin: 50% 50%;
+
+	
 
 
 
@@ -1199,7 +1227,7 @@ margin-top: -46px;
 	height: 100%;*/
 	width: 300px;
 	height: 300px;
-	position: absolute;
+	/* position: absolute; */
 	z-index: 1000;
 	border-radius: 700%;
 	top: 220px;
@@ -1333,8 +1361,8 @@ h5{
 	#leFruit{
 
 		width: 129%;
-		margin-left: -63px;
-		margin-top: 30px;
+		/* margin-left: -63px;
+		margin-top: 30px; */
 	}
 
 	#fruitInfo{
@@ -1352,12 +1380,20 @@ h5{
     transform-origin: 50% 50%;
 
 
+	width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    margin: 0;
+    transform: scale(0.8);
+
+
 
 
 }
 
 body{
-	margin-top: -45px;
+	/* margin-top: -45px; */
 }
 
 /* Styles */
@@ -1407,14 +1443,16 @@ body{
 
 	#leFruit{
 		width: 127%;
-		margin-left: -76px;
-		margin-top: 33px;
+		/* margin-left: -76px;
+		margin-top: 33px; */
 		-ms-transform: scale(0.70, 0.70); /* IE 9 */
     	-ms-transform-origin: 50% 50%; /* IE 9 */
     	-webkit-transform: scale(0.70, 0.70); /* Chrome, Safari, Opera */
     	-webkit-transform-origin: 50% 50%; /* Chrome, Safari, Opera */
     	transform: scale(0.70, 0.70);
     	transform-origin: 50% 50%;
+
+		
 	}
 
 	#fruitInfo{
@@ -1425,7 +1463,7 @@ body{
 	body{
 		background-size: 300% 200%;
 		background-position:center left;
-		height: 19%;
+		/* height: 19%; */
 	}
 
 }
@@ -1436,14 +1474,22 @@ body{
 
 	#leFruit{
 		width: 103%;
-		margin-left: 22px;
-		margin-top: 0;
+		/* margin-left: 22px;
+		margin-top: 0; */
 		-ms-transform: scale(0.70, 0.70); /* IE 9 */
     	-ms-transform-origin: 50% 50%; /* IE 9 */
     	-webkit-transform: scale(0.70, 0.70); /* Chrome, Safari, Opera */
     	-webkit-transform-origin: 50% 50%; /* Chrome, Safari, Opera */
     	transform: scale(0.75, 0.75);
     	transform-origin: 50% 50%;
+
+		width: 100%;
+    	display: grid;
+    	grid-template-columns: 1fr 1fr 1fr 1fr;
+    	height: 100%;
+
+    	margin: 0;
+    	transform: scale(0.8);
 	}
 
 	#fruitInfo{
@@ -1464,8 +1510,8 @@ body{
 
 	#leFruit{
 		width: 116%;
-		margin-left: -31px;
-		margin-top: 58px;
+		/* margin-left: -31px;
+		margin-top: 58px; */
 		-ms-transform: scale(0.70, 0.70); /* IE 9 */
     	-ms-transform-origin: 50% 50%; /* IE 9 */
     	-webkit-transform: scale(0.70, 0.70); /* Chrome, Safari, Opera */
@@ -1487,8 +1533,8 @@ body{
 
 	#leFruit{
 		width: 96%;
-		margin-left: 44px;
-		margin-top: 29px;
+		/* margin-left: 44px;
+		margin-top: 29px; */
 		-ms-transform: scale(0.70, 0.70); /* IE 9 */
     	-ms-transform-origin: 50% 50%; /* IE 9 */
     	-webkit-transform: scale(0.70, 0.70); /* Chrome, Safari, Opera */
@@ -1509,8 +1555,8 @@ body{
 
 	#leFruit{
 		width: 100%;
-		margin-left: 12px;
-		margin-top: 77px;
+		/* margin-left: 12px;
+		margin-top: 77px; */
 		-ms-transform: scale(0.70, 0.70); /* IE 9 */
     	-ms-transform-origin: 50% 50%; /* IE 9 */
     	-webkit-transform: scale(0.70, 0.70); /* Chrome, Safari, Opera */
@@ -1535,8 +1581,8 @@ body{
 
 	#leFruit{
 		width: 74%;
-		margin-left: 105px;
-		margin-top: 483px;
+		/* margin-left: 105px;
+		margin-top: 483px; */
 		-ms-transform: scale(0.70, 0.70); /* IE 9 */
     	-ms-transform-origin: 50% 50%; /* IE 9 */
     	-webkit-transform: scale(0.70, 0.70); /* Chrome, Safari, Opera */
@@ -1557,8 +1603,8 @@ body{
 
 	#leFruit{
 		width: 77%;
-		margin-left: 162px;
-		margin-top: 249px;
+		/* margin-left: 162px;
+		margin-top: 249px; */
 		-ms-transform: scale(0.70, 0.70); /* IE 9 */
     	-ms-transform-origin: 50% 50%; /* IE 9 */
     	-webkit-transform: scale(0.70, 0.70); /* Chrome, Safari, Opera */
@@ -1580,8 +1626,8 @@ body{
 
 	#leFruit{
 		width: 68%;
-		margin-left: 253px;
-		margin-top: 460px;
+		/* margin-left: 253px;
+		margin-top: 460px; */
 		-ms-transform: scale(0.70, 0.70); /* IE 9 */
     	-ms-transform-origin: 50% 50%; /* IE 9 */
     	-webkit-transform: scale(0.70, 0.70); /* Chrome, Safari, Opera */
