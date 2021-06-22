@@ -4,7 +4,6 @@ html{
 }
 
 body{
-
 	height:100%;
 	font-family:"BenchNine", Helvetica, Arial, sans-serif;
 	background-color: #000000;
@@ -17,8 +16,6 @@ body{
 	background-size: 500% 100%;
     background-repeat: no-repeat;
 
-
-
 	-webkit-transform: scale(1);
     -moz-transform: scale(1);
     -o-transform: scale(1);
@@ -26,16 +23,13 @@ body{
 	-webkit-transform-origin:left top;
 	-moz-transform-origin:left top;
 
-
 }
 
 
-p, h1, h2, h3, h4, h5, h6{
-	
+p, h1, h2, h3, h4, h5, h6{	
 	text-transform: uppercase;
 	font-family: "BenchNine", Helvetica, Arial, sans-serif;
 	letter-spacing: 1px;
-
 	font-weight: 100;
 }
 
@@ -46,8 +40,6 @@ a{
 ul{
 	text-align: center;
 	list-style-type: none;
-
-
 } 
 
 
@@ -212,10 +204,7 @@ display: none;
 
 }
 /*///////////////////PROBLEMAS//////////////////*/
-/*line-height: 0.5;
-menuHome
-menuHomeList
-menuHomeTxt*/
+
 
 .menuHomeList{
 		margin-left: 3.4em;
@@ -227,8 +216,6 @@ menuHomeTxt*/
 #menuHome{
 	margin-top: 10px;
 	text-align: center;
-/*	position: absolute;*/
-/*	position: fixed;*/
 	bottom: 0;
 	background-color: #101010;
 	padding: 0;
@@ -237,7 +224,6 @@ menuHomeTxt*/
 
 .menuHomeTxt{
 	float: left;
-/*	margin-top: 1em;*/
 	margin-left: 2em;
 	color: #7c7c7c;	
 
@@ -246,26 +232,12 @@ menuHomeTxt*/
 
 
 
-/*#btnsPictures{
-	margin-top: 1em;
-/*	float: right;*/
-/*	width: 100%;
-}
-
-#btnsVideo{*/
-	/*margin-top: 1em;*/
-/*	float: left;*/
-/*}*/
-
-
 
 .btnsAudios{
-/*	margin: auto;*/
-/*	margin-top: 3.5%;
-	margin-left: 16%;*/
+
 	width: 100%;
 	height: 6%;
-/*	background-color: yellow;*/
+
 	position: relative;
 	text-align: center;
 	padding-left: 0;
@@ -299,7 +271,7 @@ menuHomeTxt*/
 
 .btnsPictures{
 	position: relative;
-/*	margin-top: 30px;*/
+
 	float: inherit;
 	height: 110%;
 	width: 140%;
@@ -311,7 +283,6 @@ menuHomeTxt*/
 
 	vertical-align: middle;
 
-/*	background-color: #e6e6e6;*/
 	line-height: 1;
 
 	
@@ -322,7 +293,7 @@ menuHomeTxt*/
 	margin-bottom: 10px;
 	line-height: 1;
 	position: relative;
-/*	margin-left: 8%;*/
+
 	padding-top: 6%;
 	padding-bottom: 1%;
 	padding-left: 5px;
@@ -339,7 +310,6 @@ menuHomeTxt*/
 
 .btnsVideo h4, .btnsPictures h4, .btnsMusico a{
 	color: #637d7e;
-	/*position: relative;*/
 	margin: 0;
 
 }
@@ -348,7 +318,6 @@ menuHomeTxt*/
 	color: #555555;
 	font-size: 13px;
 	margin-top: 1%;
-/*	position: relative;*/
 }
 
 .audifintro{
@@ -368,7 +337,7 @@ menuHomeTxt*/
 	position: relative;
 	width: 100%;
 
-	/*background-color: red;*/
+
 }
 .audifons{
 	/*background-color: blue;*/
@@ -452,7 +421,6 @@ menuHomeTxt*/
 
 #theFotoAudio{
 	height: 80%;
-/*	display: table-cell;*/
 	text-align: right;
 	position: relative;
 	padding-right: 0;
@@ -509,7 +477,6 @@ footer {
 
 /*////////////////////////////*/
 
-/*html,body{height:100%;}*/
 .carousel .item .active{
 	height:80%;
 }
@@ -531,15 +498,7 @@ footer {
 .item img{
 	height: 80%;
 }
-/* faster sliding speed */
-/*.carousel-inner > .item {
-    -webkit-transition: 0.3s ease-in-out left;
-    -moz-transition: 0.3s ease-in-out left;
-    -o-transition: 0.3s ease-in-out left;
-    transition: 0.3s ease-in-out left;
-}*/
 
-/* keep full widget on smaller screens */
 @media (min-width: 367px) { 
 	body {
 		padding-left: 0;
@@ -554,13 +513,6 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
-
-
-/*////////////////////////////*/
-
-
 
 
 
@@ -589,13 +541,7 @@ footer {
 
 	background: url(../assets/fondoObscuro8.jpg) center center repeat;
 
-	/* MAGIC HAPPENS HERE */
-/*    transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    -webkit-font-smoothing: antialiased;*/ /* seems to do the same in Safari Family of Browsers*/
+
 
 	background-size: cover;
 
@@ -607,16 +553,10 @@ footer {
 	display: table-cell;
 	text-align: right;
 	position: static;
-/* 	background-color: green;*/
+
 }
 
-/*.vidStudio{
-	margin: 10em 0 0 0;
-}
 
-.vidStudio iframe{ 
-	margin: 0 3.5em 0 0;
-}*/
 /*END space
 ==================================================*/
 
@@ -636,7 +576,7 @@ footer {
 	margin: 0 auto;	
 	overflow: hidden;
 	background-color: black;
-/*	font-size: 200em;*/
+
 	background: url(../images/f3.jpg);
 	background-size: contain;	
 	background-size: cover;
