@@ -1,4 +1,4 @@
-
+<img src="" alt="frutasEnTemporada" width="838" height="420" >
 
 ## Frutas en Temporada
 **Creado con javaScript**
@@ -6,11 +6,10 @@
 Calendario para saber las frutas que están en temporada.
 Ejercicio OOP
 
-Se generó el objecto fruta y se van creando con new 'fruta'. 
 
 ## Tareas
 
-- [x] Subir Mínimo Producto Viable
+- [ ] Subir Mínimo Producto Viable
 - [ ] Crear una API con las frutas
 - [ ] Implementar frutas favoritas y enviar notificación cuando es temporada
 
