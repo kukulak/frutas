@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/kukulak/frutas/main/img/pantallazoFrutas.png" alt="frutasEnTemporada" width="838" height="512" >
+<img src="https://raw.githubusercontent.com/kukulak/frutas/main/img/pantallazoFrutas.jpg" alt="frutasEnTemporada" width="838" height="512" >
 
 
 ## Frutas en Temporada
