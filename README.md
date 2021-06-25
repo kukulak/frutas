@@ -5,7 +5,7 @@
 **Creado con javaScript**
 
 Calendario para saber las frutas que están en temporada.
-Ejercicio OOP
+Ejercicio OOP y date()
 
 
 ## Tareas
